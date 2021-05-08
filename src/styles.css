@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+button {
+  margin: 30px;
+  background-color: rgb(212, 240, 217);
+  color: rgb(26, 22, 78);
+  width: 150px;
+  height: 75px;
+  font-size: 30px;
+  border-radius: 5%;
+  border-width: 1px;
+  border-color: currentColor;
+  
+}

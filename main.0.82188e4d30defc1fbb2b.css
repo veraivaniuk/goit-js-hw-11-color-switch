@@ -1,0 +1,1 @@
+html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{min-height:100vh;margin:0;display:flex;align-items:center;justify-content:center}button{margin:30px;background-color:#d4f0d9;color:#1a164e;width:150px;height:75px;font-size:30px;border-radius:5%;border-width:1px;border-color:currentColor}

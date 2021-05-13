@@ -27,11 +27,11 @@ const colors = [
 const onStart = (min, max) => {
     refs.body.style.backgroundColor = `${colors[randomIntegerFromInterval(min, max)]}`;
     refs.body.style.backgroundImage = null;
-    refs.start.disabled = true;
     console.log(Date.now());
 }
 
 const callbackOnStart = () => {
+    refs.start.disabled = true;
     console.log(timerId)
     timerId = setInterval(onStart, 1000, 0, (colors.length-1));
 };
